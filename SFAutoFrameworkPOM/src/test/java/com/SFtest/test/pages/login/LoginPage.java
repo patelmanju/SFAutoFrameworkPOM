@@ -1,10 +1,10 @@
-package com.SFtest.pages.login;
+package com.SFtest.test.pages.login;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.SFtest.pages.base.BasePage;
+import com.SFtest.test.pages.base.BasePage;
 
 public class LoginPage extends BasePage {
 	@FindBy(id = "username")

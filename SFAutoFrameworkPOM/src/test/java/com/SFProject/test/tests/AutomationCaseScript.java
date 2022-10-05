@@ -1,13 +1,14 @@
-package SFProject.utility.test;
+package com.SFProject.test.tests;
 
 import java.util.Properties;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.SFtest.pages.home.HomePage;
-import com.SFtest.pages.login.ForGotPasswordPage;
-import com.SFtest.pages.login.LoginPage;
-import SFProject.utility.CommonUtility;
-import SFProject.utility.base.SalesforceBaseScript;
+
+import com.SFProject.test.base.SalesforceBaseScript;
+import com.SFProject.test.utility.CommonUtility;
+import com.SFtest.test.pages.home.HomePage;
+import com.SFtest.test.pages.login.ForGotPasswordPage;
+import com.SFtest.test.pages.login.LoginPage;
 
 public class AutomationCaseScript extends SalesforceBaseScript {
 

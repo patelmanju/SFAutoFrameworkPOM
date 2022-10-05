@@ -1,4 +1,4 @@
-package com.SFtest.pages.base;
+package com.SFtest.test.pages.base;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +18,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import SFProject.utility.GenerateReports;
-import SFProject.utility.constants;
+
+import com.SFProject.test.utility.GenerateReports;
+import com.SFProject.test.utility.constants;
 
 public class BasePage {
 	public static WebDriver driver=null;

@@ -1,4 +1,4 @@
-package com.SFtest.pages.login;
+package com.SFtest.test.pages.login;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package com.SFtest.pages.home;
+package com.SFtest.test.pages.home;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.SFtest.pages.base.BasePage;
+import com.SFtest.test.pages.base.BasePage;
 
 public class HomePage extends BasePage {
 	@FindBy(xpath = "//li[@id='home_Tab']") WebElement Hometab;
